@@ -1,0 +1,42 @@
+.AboutMe_main_container {
+  background-color: #1c0954;
+  height: 90vh;
+  width: 100%;
+}
+.aboutMeTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+.aboutMeText {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+.aboutmeUnderline {
+  margin-top: 10px;
+  height: 3px;
+  width: 240px;
+  background-color: white;
+}
+.aboutMeContainer {
+  display: flex;
+}
+.aboutMe_image {
+  height: 530px;
+  width: 430px;
+}
+.aboutMeDescription {
+  color: white;
+  text-align: left;
+  margin-top: 40px;
+}
+.aboutMeContainer {
+  margin: 0px 240px;
+  gap: 80px;
+  margin-top: 60px;
+}
+.about_david {
+  font-size: 20px;
+}

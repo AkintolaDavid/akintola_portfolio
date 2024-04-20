@@ -1,0 +1,72 @@
+.Portfolio_main_container {
+  height: 90vh;
+  width: 100%;
+  background-color: #1c0954;
+}
+.PortfolioTextDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+.PortfolioText {
+  font-size: 40px;
+  color: white;
+  font-weight: 600;
+}
+.PortfolioUnderline {
+  margin-top: 10px;
+  height: 3px;
+  width: 240px;
+  background-color: white;
+}
+.portfolio_content {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(
+    4,
+    1fr
+  ); /* Repeat 4 columns, each 1 fraction of available space */
+  grid-gap: 10px;
+  margin: 0px 100px;
+}
+.portfolio_content_1_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_2_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_3_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_4_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_5_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_6_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_7_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}
+.portfolio_content_8_img {
+  height: 200px;
+  width: 300px;
+  border-radius: 15px;
+}

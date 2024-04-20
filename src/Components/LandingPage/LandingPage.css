@@ -1,0 +1,71 @@
+.landingpage {
+  display: flex;
+  height: 90vh;
+  background-color: #0169ca;
+  align-items: center;
+  gap: 50px;
+}
+.description {
+  margin-left: 150px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.myname {
+  font-size: 35px;
+  font-weight: 600;
+  /* margin-bottom: 50px; */
+  color: #1c0954;
+}
+.name {
+  font-size: 55px;
+  margin-bottom: 40px;
+  color: white;
+  font-weight: 700;
+}
+.about {
+  font-size: 20px;
+  color: white;
+}
+.about_data {
+  font-size: 22px;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: #1c0954;
+  font-weight: 500;
+}
+.description_image {
+  margin-right: 150px;
+  height: 50vh;
+  width: 75vh;
+  border-radius: 30px;
+}
+.icon_main_container {
+  margin-top: 35px;
+  display: flex;
+  gap: 50px;
+}
+.icon_container {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.decription_icon {
+  font-size: 25px;
+  margin-top: 5px;
+}
+.description_button {
+  margin-top: 25px;
+  width: 230px;
+  height: 45px;
+  background-color: #1c0954;
+  color: white;
+  border: none;
+  border-radius: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
