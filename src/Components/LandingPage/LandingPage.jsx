@@ -1,6 +1,7 @@
 import React from "react";
 import "./LandingPage.css";
 import description_image from "../../Assets/description.png";
+import resume from "../../Assets/David_Resume.pdf";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -51,7 +52,9 @@ export const LandingPage = () => {
               </Link>
             </div>
           </div>
-          <button className="description_button">Download CV</button>
+          <a href={resume} download="David's_Resume">
+            <button className="description_button">Download CV</button>
+          </a>
         </div>
         <div>
           <img
