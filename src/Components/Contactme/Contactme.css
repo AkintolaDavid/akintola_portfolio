@@ -1,138 +1,573 @@
-.Contactme_main_container {
-  height: 85vh;
-  width: 100%;
-  background-color: #0169ca;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+@media (min-width: 1219px) {
+  .Contactme_main_container {
+    height: 85vh;
+    width: 100%;
+    background-color: #0169ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteactme_TextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .conteactme_Text {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+  }
+  .conteactme_Underline {
+    margin-top: 10px;
+    height: 3px;
+    width: 240px;
+    background-color: white;
+  }
+  .contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 80px;
+  }
+  .contactme_details {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .contactme_phonenumber {
+    display: flex;
+    align-items: center;
+  }
+  .contactme_email {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_address {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_form {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  .contactme_form_name {
+    height: 35px;
+    width: 700px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contactme_form_email {
+    height: 35px;
+    width: 700px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contact_phone_subject {
+    display: flex;
+    gap: 23px;
+    margin-top: 20px;
+  }
+  .contactme_form_phoneNumber {
+    height: 35px;
+    width: 330px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_subject {
+    height: 35px;
+    width: 330px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_message {
+    height: 200px;
+    width: 700px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .contactMe_btn {
+    height: 35px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  .contactMe_btn:hover {
+    color: #1c0954;
+    background-color: white;
+    font-weight: 600;
+  }
+  .contactme_form_message::placeholder {
+    color: white;
+  }
+  .contactme_form_subject::placeholder {
+    color: white;
+  }
+  .contactme_form_phoneNumber::placeholder {
+    color: white;
+  }
+  .contactme_form_name::placeholder {
+    color: white;
+  }
+  .contactme_form_email::placeholder {
+    color: white;
+  }
 }
-.conteactme_TextDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 70px;
+@media (min-width: 951px) and (max-width: 1220px) {
+  .Contactme_main_container {
+    height: 85vh;
+    width: 100%;
+    background-color: #0169ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .conteactme_TextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .conteactme_Text {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+  }
+  .conteactme_Underline {
+    margin-top: 10px;
+    height: 3px;
+    width: 240px;
+    background-color: white;
+  }
+  .contact_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+  }
+  .contactme_details {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .contactme_phonenumber {
+    display: flex;
+    align-items: center;
+  }
+  .contactme_email {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_address {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+  .contactme_form_name {
+    height: 35px;
+    width: 550px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contactme_form_email {
+    height: 35px;
+    width: 550px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contact_phone_subject {
+    display: flex;
+    gap: 23px;
+    margin-top: 20px;
+  }
+  .contactme_form_phoneNumber {
+    height: 35px;
+    width: 255px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_subject {
+    height: 35px;
+    width: 255px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_message {
+    height: 200px;
+    width: 550px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .contactMe_btn {
+    height: 35px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  .contactMe_btn:hover {
+    color: #1c0954;
+    background-color: white;
+    font-weight: 600;
+  }
+  .contactme_form_message::placeholder {
+    color: white;
+  }
+  .contactme_form_subject::placeholder {
+    color: white;
+  }
+  .contactme_form_phoneNumber::placeholder {
+    color: white;
+  }
+  .contactme_form_name::placeholder {
+    color: white;
+  }
+  .contactme_form_email::placeholder {
+    color: white;
+  }
 }
-.conteactme_Text {
-  font-size: 40px;
-  color: white;
-  font-weight: 600;
+@media (min-width: 601px) and (max-width: 950px) {
+  .Contactme_main_container {
+    height: auto;
+    width: 100%;
+    background-color: #0169ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  .conteactme_TextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .conteactme_Text {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+  }
+  .conteactme_Underline {
+    margin-top: 10px;
+    height: 3px;
+    width: 240px;
+    background-color: white;
+  }
+  .contact_container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 80px;
+  }
+  .contactme_details {
+    text-align: left;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+  .contactme_phonenumber {
+    display: flex;
+    align-items: center;
+  }
+  .contactme_email {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_address {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+  .contactme_form_name {
+    height: 35px;
+    width: 550px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contactme_form_email {
+    height: 35px;
+    width: 550px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contact_phone_subject {
+    display: flex;
+    gap: 23px;
+    margin-top: 20px;
+  }
+  .contactme_form_phoneNumber {
+    height: 35px;
+    width: 255px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_subject {
+    height: 35px;
+    width: 255px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_message {
+    height: 200px;
+    width: 550px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .contactMe_btn {
+    height: 35px;
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  .contactMe_btn:hover {
+    color: #1c0954;
+    background-color: white;
+    font-weight: 600;
+  }
+  .contactme_form_message::placeholder {
+    color: white;
+  }
+  .contactme_form_subject::placeholder {
+    color: white;
+  }
+  .contactme_form_phoneNumber::placeholder {
+    color: white;
+  }
+  .contactme_form_name::placeholder {
+    color: white;
+  }
+  .contactme_form_email::placeholder {
+    color: white;
+  }
 }
-.conteactme_Underline {
-  margin-top: 10px;
-  height: 3px;
-  width: 240px;
-  background-color: white;
-}
-.contact_container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 100px;
-  margin-top: 80px;
-}
-.contactme_details {
-  text-align: left;
-  font-size: 20px;
-}
-.contactme_phonenumber {
-  display: flex;
-  align-items: center;
-}
-.contactme_email {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-.contactme_address {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-.contactme_form {
-  display: flex;
-  flex-direction: column;
-}
-.contactme_form_name {
-  height: 35px;
-  width: 700px;
-  background-color: #1c0954;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  padding-left: 15px;
-}
-.contactme_form_email {
-  height: 35px;
-  width: 700px;
-  margin-top: 20px;
-  background-color: #1c0954;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  padding-left: 15px;
-}
-.contact_phone_subject {
-  display: flex;
-  gap: 23px;
-  margin-top: 20px;
-}
-.contactme_form_phoneNumber {
-  height: 35px;
-  width: 330px;
-  padding-left: 15px;
-  background-color: #1c0954;
-  border-radius: 20px;
-  border: none;
-  color: white;
-}
-.contactme_form_subject {
-  height: 35px;
-  width: 330px;
-  padding-left: 15px;
-  background-color: #1c0954;
-  border-radius: 20px;
-  border: none;
-  color: white;
-}
-.contactme_form_message {
-  height: 200px;
-  width: 700px;
-  margin-top: 20px;
-  background-color: #1c0954;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  padding-left: 15px;
-  padding-top: 7px;
-}
-.contactMe_btn {
-  height: 35px;
-  width: 200px;
-  margin-top: 20px;
-  background-color: #1c0954;
-  border-radius: 20px;
-  border: none;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-}
-.contactMe_btn:hover {
-  color: #1c0954;
-  background-color: white;
-  font-weight: 600;
-}
-.contactme_form_message::placeholder {
-  color: white;
-}
-.contactme_form_subject::placeholder {
-  color: white;
-}
-.contactme_form_phoneNumber::placeholder {
-  color: white;
-}
-.contactme_form_name::placeholder {
-  color: white;
-}
-.contactme_form_email::placeholder {
-  color: white;
+@media (max-width: 600px) {
+  .Contactme_main_container {
+    height: auto;
+    width: 100%;
+    background-color: #0169ca;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+  }
+  .conteactme_TextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+  }
+  .conteactme_Text {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .conteactme_Underline {
+    margin-top: 10px;
+    height: 3px;
+    width: 140px;
+    background-color: white;
+  }
+  .contact_container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  .contactme_details {
+    text-align: left;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+  .contactme_phonenumber {
+    display: flex;
+    align-items: center;
+  }
+  .contactme_email {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_address {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .contactme_form {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+  }
+  .contactme_form_name {
+    height: 35px;
+    width: 300px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contactme_form_email {
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+  }
+  .contact_phone_subject {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    margin-top: 20px;
+  }
+  .contactme_form_phoneNumber {
+    height: 35px;
+    width: 300px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_subject {
+    height: 35px;
+    width: 300px;
+    padding-left: 15px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+  }
+  .contactme_form_message {
+    height: 200px;
+    width: 300px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .contactMe_btn {
+    height: 35px;
+    width: 160px;
+    margin-top: 20px;
+    background-color: #1c0954;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+  }
+  .contactMe_btn:hover {
+    color: #1c0954;
+    background-color: white;
+    font-weight: 600;
+  }
+  .contactme_form_message::placeholder {
+    color: white;
+  }
+  .contactme_form_subject::placeholder {
+    color: white;
+  }
+  .contactme_form_phoneNumber::placeholder {
+    color: white;
+  }
+  .contactme_form_name::placeholder {
+    color: white;
+  }
+  .contactme_form_email::placeholder {
+    color: white;
+  }
 }

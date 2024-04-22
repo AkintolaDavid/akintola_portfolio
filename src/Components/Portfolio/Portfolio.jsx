@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import description_image from "../../Assets/description.png";
 import ecommerce from "../../Assets/ecom.png";
 import getLinked from "../../Assets/getlinked.png";
 import loginpage from "../../Assets/loginpage.png";

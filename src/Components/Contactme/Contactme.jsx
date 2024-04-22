@@ -64,7 +64,7 @@ export const Contactme = () => {
             />
           </div>
           <textarea
-            class="contactme_form_message"
+            className="contactme_form_message"
             placeholder="Your Message"
           ></textarea>
 

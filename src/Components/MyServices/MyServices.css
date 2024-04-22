@@ -1,44 +1,150 @@
-.MyServices_main_container {
-  height: 90vh;
-  width: 100%;
-  background-color: #0169ca;
+@media (min-width: 1101px) {
+  .MyServices_main_container {
+    height: 90vh;
+    width: 100%;
+    background-color: #0169ca;
+  }
+  .myservicesTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+  }
+  .myservicesText {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+  }
+  .myservicesUnderline {
+    margin-top: 10px;
+    height: 3px;
+    width: 240px;
+    background-color: white;
+  }
+  .myservice_types_text {
+    display: flex;
+    font-weight: 500;
+    text-align: justify;
+    width: 250px;
+    margin: 0px 20px;
+  }
+  .myservicescontainer {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    gap: 70px;
+  }
+  .myservice_types {
+    background-color: white;
+    height: 360px;
+    width: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .myservice_types_img {
+    height: 140px;
+  }
 }
-.myservicesTextDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 70px;
+@media (min-width: 801px) and (max-width: 1100px) {
+  .MyServices_main_container {
+    height: 80vh;
+    width: 100%;
+    background-color: #0169ca;
+  }
+  .myservicesTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .myservicesText {
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+  }
+  .myservicesUnderline {
+    margin-top: 10px;
+    height: 3px;
+    width: 240px;
+    background-color: white;
+  }
+  .myservice_types_text {
+    display: flex;
+    font-weight: 500;
+    text-align: justify;
+    width: 200px;
+    margin: 0px 20px;
+  }
+  .myservicescontainer {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+    gap: 30px;
+  }
+  .myservice_types {
+    background-color: white;
+    height: 330px;
+    width: 270px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .myservice_types_img {
+    height: 100px;
+  }
 }
-.myservicesText {
-  font-size: 40px;
-  color: white;
-  font-weight: 600;
-}
-.myservicesUnderline {
-  margin-top: 10px;
-  height: 3px;
-  width: 240px;
-  background-color: white;
-}
-.myservice_types_text {
-  display: flex;
-  font-weight: 500;
-  text-align: justify;
-  width: 250px;
-  margin: 0px 20px;
-}
-.myservicescontainer {
-  display: flex;
-  margin-top: 100px;
-  justify-content: center;
-  gap: 70px;
-}
-.myservice_types {
-  background-color: white;
-  height: 360px;
-  width: 300px;
-  border-radius: 30px;
-}
-.myservice_types_img {
-  height: 140px;
+@media (max-width: 800px) {
+  .MyServices_main_container {
+    height: auto;
+    width: 100%;
+    background-color: #0169ca;
+    padding-bottom: 40px;
+  }
+  .myservicesTextDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .myservicesText {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+  .myservicesUnderline {
+    margin-top: 10px;
+    height: 3px;
+    width: 140px;
+    background-color: white;
+  }
+  .myservice_types_text {
+    display: flex;
+    font-weight: 500;
+    text-align: justify;
+    width: 200px;
+    margin: 0px 20px;
+  }
+  .myservicescontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+    gap: 30px;
+  }
+  .myservice_types {
+    background-color: white;
+    height: 330px;
+    width: 270px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .myservice_types_img {
+    height: 100px;
+  }
 }
